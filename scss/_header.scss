@@ -1,0 +1,38 @@
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-decoration: none; /*sacarle es subrayado que vieen por defecto*/
+
+}
+
+.menu a:hover{ /* cuando el usuario pasa el mouse por encima*/
+    color: orange;
+    background-color:$fondo;
+    border-radius: 7%;
+    
+}
+
+.bgcolor{
+    background-color: $barras;
+
+}
+
+.foco{
+    align-self: center;
+    margin-left: 10px;
+    border-radius: 90%;
+
+}
+
+.foco:hover{
+    box-shadow: 0 0 10px $blanco, 0 0 40px $blanco, 0 0 80px $blanco;
+}

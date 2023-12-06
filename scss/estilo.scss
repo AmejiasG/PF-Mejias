@@ -1,0 +1,147 @@
+@import "colores";
+@import "header";
+@import "footer";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: $fondo;
+}
+
+h1{
+    font-weight: 600;
+    margin: 1rem;
+    font-size: 3rem;
+    color: $blanco;
+
+}
+
+h3{
+    color: $blanco;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color: $blanco;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width: 1295px){
+    
+    .cajaInicio{
+        width: auto;
+    }
+    .mediaInicio{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 576px){
+    
+    .navbar-collapse{
+        text-align: center;
+    }
+    .menu{
+        display: inline-block;
+
+    }
+    .menu li{
+        padding: 5px;
+    }
+    .menu .dropdown{
+        text-align: center;
+    }
+}
+
+.cajaInicio {
+    color: #dadada;
+    text-align: center;
+    background-color: $parrafos;
+    padding: 10px;
+    line-height: 1.8;
+    font-size: 1.7rem; /*si no le pongo altura, el overflow no se activaria */
+    border-radius: 10px; /* es para darle redondez al borde */
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+
+}
+
+
+.cajaServ{
+    background-color: $parrafos;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+    border: black 2px solid;
+    border-radius: 10px; /* es para darle redondez al borde */
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+
+}
+
+.cuadroCont{
+    color: #dadada;
+    background-color: $parrafos;
+    padding: 30px;
+    width: 300px;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    text-align: right;
+
+    border: black 2px solid;
+    border-start-start-radius: 50px;
+    border-end-start-radius: 50px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+
+}
+
+.cuadroProy{
+    color:#dadada;
+    background-color: $parrafos;
+    margin: 10px;
+    padding: 25px;
+    height: auto;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+
+    border: black 2px solid;
+    border-radius: 10px;
+    box-shadow: 2.4px 2.4px 3.2px rgba(0, 0, 0, 0.15) ;
+
+}
+
+.form{
+    width: 400px;
+    margin-left: 10px;
+    border: black solid 3px;
+    border-end-end-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+
+}
+
+.mediaInicio{
+    width: 50%;
+
+}
+
+.titulos{
+    color: $blanco;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.textRespuesta{
+    color: $negro;
+    font-size: 1.2rem;
+
+}
+
+
