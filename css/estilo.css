@@ -89,9 +89,6 @@ p {
   .cajaInicio {
     width: auto;
   }
-  .mediaInicio {
-    width: 75%;
-  }
 }
 @media screen and (max-width: 576px) {
   .navbar-collapse {
@@ -101,10 +98,18 @@ p {
     display: inline-block;
   }
   .menu li {
-    padding: 5px;
+    padding: 10px;
   }
   .menu .dropdown {
     text-align: center;
+  }
+  .cajaInicio {
+    line-height: 0;
+  }
+}
+@media screen and (max-width: 990px) {
+  .menu {
+    justify-content: center;
   }
 }
 .cajaInicio {
@@ -112,8 +117,7 @@ p {
   text-align: center;
   background-color: #01364d;
   padding: 10px;
-  line-height: 1.8;
-  font-size: 1.7rem; /*si no le pongo altura, el overflow no se activaria */
+  line-height: 2;
   border-radius: 10px; /* es para darle redondez al borde */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
@@ -164,10 +168,6 @@ p {
   border-end-end-radius: 50px;
   border-top-right-radius: 50px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-}
-
-.mediaInicio {
-  width: 50%;
 }
 
 .titulos {
